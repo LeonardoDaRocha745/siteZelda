@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body{
+  font-family: 'Orbitron', sans-serif;
+}
+
+.container{
+  width: 1100px;
+  height: 1000px;
+  /* border: 1px solid #000; */
+  margin: 10px auto 15px;
+}
+
+#cabecalho-principal{
+  width: 1100px;
+  height: 80px;
+  /* border: 1px solid #000; */
+  margin-bottom: 15px;
+}
+
+#logo{
+  width: 300px;
+  height: 80px;
+  line-height: 80px;
+  /* border: 1px solid #000; */
+  float: left;
+}
+
+.titulo-principal{
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.rosa-fiap{
+  color: #DC143C;
+}
+
+#menu-principal{
+  width: 750px;
+  height: 80px;
+  line-height: 80px;
+  /* border: 1px solid #000; */
+  float: left;
+}
+
+#menu-principal ul li{
+  display: inline;
+  margin: 0 60px 0;
+}
+
+#menu-principal ul li a{
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+#menu-principal ul li a:hover{
+  color: #DC143C;
+}
+
+.area-video, .servicos{
+  width: 1100px;
+  height: 400px;
+  margin: 10px;
+  /* border: 1px solid #000; */
+}
+.video{
+  width: 100%;
+  height: 400px;
+}
+.servicos{
+  height: 300px;
+}
+.servicos-coluna{
+  width: 340px;
+  height: 300px;
+  margin: 0 10px;
+    background-image: url(../images/zelda1.png);
+    background-repeat: no-repeat;
+    background-position: 5px 20px;
+  /* border: 1px solid; */
+  float: left;
+}
+.imagem-link{
+background-image: url(../images/zelda2.png);
+}
+.imagem-ganondorf{
+  background-image: url(../images/zelda3.png);
+}
+
+.coluna-titulo{
+  margin: 30px 60px;
+  font-size: 30px;
+  font-weight: 70px;
+  color: #DC143C;
+}
+
+.coluna-texto{
+  font-size: 14px;
+  line-height: 25px;
+  margin: 30px 0;
+}
+
+.coluna-link, button{
+  text-decoration: none;
+  background-color: #dc143c;
+  color: #fff;
+  margin-top: 10px;
+  padding: 15px 60px;
+  box-sizing: border-box;
+  border: 1px solid #dc143c;
+  border-radius: 5px;
+}
+.coluna-link:hover, button:hover{
+  background-color: #fff;
+  color: #dc143c;
+}
+.formulario{
+  width: 1100px;
+  height:500px;
+  /* border: 1px solid #000; */
+  margin: 20px 0;
+
+}
+fieldset{
+  margin: 10px,0;
+}
+.formulario input[type ="text"],
+.formulario input[type ="email"],
+.formulario input[type ="tel"],
+.formulario textarea{
+width: 100%;
+height: 60px;
+padding: 0 60px;
+box-sizing: border-box;
+font-size: 25px;
+font-family: 'Orbitron', sans-serif;
+margin-bottom: 10px;
+background-repeat: no-repeat;
+background-position: 2px,5px center;
+border: 1px solid #ccc;
+}
+.formulario textarea{
+  height: 150px;
+  resize: none;
+  padding-left: 15px;
+}
+button:hover{
+  cursor: pointer;
+}
+.formulario input:focus,
+.formulario textarea:focus{
+  outline: 0;
+  border: 1px solid #DC143C;
+}
+.user{background-image:url(../images/user1.png)}
+.phone{background-image:url(../images/fone1.png)}
+.email{background-image:url(../images/email1.png)}
+
+.user:focus{background-image:url(../images/user2.png)}
+.phone:focus{background-image:url(../images/fone2.png)}
+.email:focus{background-image:url(../images/email2.png)}
